@@ -27,5 +27,3 @@ config/secrets.yml.key
 /public/assets
 /public/uploads
 
-# semantic
-/semantic
