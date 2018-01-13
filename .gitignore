@@ -26,3 +26,6 @@ config/secrets.yml.key
 *.swp
 /public/assets
 /public/uploads
+
+# semantic
+/semantic

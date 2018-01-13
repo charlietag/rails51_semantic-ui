@@ -1,5 +1,7 @@
 {
   "name": "rails51_semantic-ui",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "semantic-ui": "^2.2.13"
+  }
 }
