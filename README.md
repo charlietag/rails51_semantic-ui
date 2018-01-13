@@ -1,24 +1,11 @@
-# README
+# semantic-ui installation
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Environment
+* Nginx - Passenger
+* Database - MariaDB 10.1
+* Ruby 2.4.1
+* Rails 5.1.4
 
-Things you may want to cover:
+## Start from scratch
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Leverage this project
