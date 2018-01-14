@@ -38,8 +38,6 @@
       "permission": false,
       "autoInstall": true,
       "rtl": false
-      "rtl": false,
-      "version": "2.2.13" # will be added back after yarn add semantic-ui
     }
     !
     ```
