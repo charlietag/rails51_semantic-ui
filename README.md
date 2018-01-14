@@ -59,5 +59,7 @@
 * cd rails51_semantic-ui
   * modify database setting
     * config/database.yml.sample ---> config/database.yml
+    * bundle exec db:create
+    * bundle exec db:migrate
   * bundle install
   * yarn install
