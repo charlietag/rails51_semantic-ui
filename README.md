@@ -51,15 +51,22 @@
     * cd semantic
       * Fix semantic setting to do "gulp build-css"
         * sed -i 's/compressedStream = stream$/compressedStream/g' tasks/build/css.js
-      * v src/theme.config
+      * vim src/theme.config
       * /home/rails51_semantic-ui/node_modules/gulp/bin/gulp.js build
 
 ## Leverage this project
 * git clone https://github.com/charlietag/rails51_semantic-ui.git
 * cd rails51_semantic-ui
   * modify database setting
-    * config/database.yml.sample ---> config/database.yml
-    * bundle exec db:create
-    * bundle exec db:migrate
+    * cp -a config/database.yml.sample config/database.yml
+      * bundle exec db:create
+      * bundle exec db:migrate
+    * cp -a config/secrets.yml.sample config/secrets.yml
   * bundle install
   * yarn install
+  * semantic-ui theming
+    * cd semantic
+      * Fix semantic setting to do "gulp build-css"
+        * sed -i 's/compressedStream = stream$/compressedStream/g' tasks/build/css.js
+      * vim src/theme.config
+      * /home/rails51_semantic-ui/node_modules/gulp/bin/gulp.js build
