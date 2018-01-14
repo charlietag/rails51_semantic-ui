@@ -9,7 +9,8 @@
 ## Start from scratch
 * rails new -d mysql rails51_semantic-ui
 * cd rails51_semantic-ui
-* rm .gitignore ; wget https://raw.githubusercontent.com/charlietag/os_preparation/master/templates/F_09_create_rails/home/myrails/.gitignore
+* rm .gitignore
+* wget https://raw.githubusercontent.com/charlietag/os_preparation/master/templates/F_09_create_rails/home/myrails/.gitignore
 * bundle exec rails g scaffold post title:string content:text
 * bundle exec db:create
 * bundle exec db:migrate
