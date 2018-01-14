@@ -57,5 +57,7 @@
 ## Leverage this project
 * git clone https://github.com/charlietag/rails51_semantic-ui.git
 * cd rails51_semantic-ui
+  * modify database setting
+    * config/database.yml.sample ---> config/database.yml
   * bundle install
   * yarn install
