@@ -66,7 +66,7 @@
   * yarn install
   * semantic-ui theming
     * cd semantic
-      * Fix semantic setting to do "gulp build-css"
-        * sed -i 's/compressedStream = stream$/compressedStream/g' tasks/build/css.js
+      * ~~Fix semantic setting to do "gulp build-css"~~
+        * ~~sed -i 's/compressedStream = stream$/compressedStream/g' tasks/build/css.js~~
       * vim src/theme.config
       * /home/rails51_semantic-ui/node_modules/gulp/bin/gulp.js build
